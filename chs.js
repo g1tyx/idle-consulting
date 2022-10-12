@@ -505,6 +505,8 @@ var cnRegReplace = new Map([
     [/^You bought (.+) paperclips.$/, '你购买了 $1 回形针。'],
     [/^You bought (.+) phones.$/, '你购买了 $1 电话。'],
     [/^You were away for ([\d\.]+)s!$/, '你离开了 $1 秒！'],
+    [/^You were away for ([\d\.]+)m ([\d\.]+)s!$/, '你离开了 $1分 $2秒！'],
+    [/^You were away for ([\d\.]+)h ([\d\.]+)m ([\d\.]+)s!$/, '你离开了 $1小时 $2分 $3秒！'],
     [/^You hired (.+) Intern on your own.$/, '你自己雇佣了 $1 名实习生。'],
     [/^You hired (.+) Junior on your own.$/, '你自己雇佣了 $1 名初级人员。'],
     [/^You hired (.+) Consultant on your own.$/, '你自己雇佣了 $1 名顾问。'],
